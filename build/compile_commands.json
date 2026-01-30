@@ -1,0 +1,38 @@
+[
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v12.8\\bin\\nvcc.exe -forward-unknown-to-host-compiler -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface -D_WINDOWS -Xcompiler=\" /EHsc\" -Xcompiler=\"-O2 -Ob2\" -DNDEBUG -std=c++17 \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" -Xcompiler=-MD -x cu -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\cu_kernels.cu -o CMakeFiles\\gpu_kernels.dir\\src\\cu_kernels.cu.obj -Xcompiler=-FdCMakeFiles\\gpu_kernels.dir\\gpu_kernels.pdb,-FS",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/cu_kernels.cu",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/gpu_kernels.dir/src/cu_kernels.cu.obj"
+},
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\RealTimeDectectVer0.3.dir\\src\\main.cpp.obj /FdCMakeFiles\\RealTimeDectectVer0.3.dir\\ /FS -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\main.cpp",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/main.cpp",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/RealTimeDectectVer0.3.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\RealTimeDectectVer0.3.dir\\src\\ConfigLoader.cpp.obj /FdCMakeFiles\\RealTimeDectectVer0.3.dir\\ /FS -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\ConfigLoader.cpp",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/ConfigLoader.cpp",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/RealTimeDectectVer0.3.dir/src/ConfigLoader.cpp.obj"
+},
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\RealTimeDectectVer0.3.dir\\src\\ResultDrawer.cpp.obj /FdCMakeFiles\\RealTimeDectectVer0.3.dir\\ /FS -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\ResultDrawer.cpp",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/ResultDrawer.cpp",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/RealTimeDectectVer0.3.dir/src/ResultDrawer.cpp.obj"
+},
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\RealTimeDectectVer0.3.dir\\src\\GpuDecoder.cpp.obj /FdCMakeFiles\\RealTimeDectectVer0.3.dir\\ /FS -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\GpuDecoder.cpp",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/GpuDecoder.cpp",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/RealTimeDectectVer0.3.dir/src/GpuDecoder.cpp.obj"
+},
+{
+  "directory": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IE:\\opencv-4.12.0-windows\\opencv\\build\\include -IE:\\opencv-4.12.0-windows\\opencv\\build\\include\\opencv2 -IE:\\ffmpeg-master-latest-win64-gpl-shared\\include -IE:\\_PROJECT_TRD_LIB\\TensorRT-YOLO_gpu\\include -IE:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\include -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include\" -IE:\\Video_Codec_SDK_13.0.37\\Interface /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD /utf-8 /FoCMakeFiles\\RealTimeDectectVer0.3.dir\\src\\NvDecoder.cpp.obj /FdCMakeFiles\\RealTimeDectectVer0.3.dir\\ /FS -c E:\\_PROJECT_CPP\\RealTimeDectectVer0.3\\src\\NvDecoder.cpp",
+  "file": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/src/NvDecoder.cpp",
+  "output": "E:/_PROJECT_CPP/RealTimeDectectVer0.3/build/CMakeFiles/RealTimeDectectVer0.3.dir/src/NvDecoder.cpp.obj"
+}
+]
